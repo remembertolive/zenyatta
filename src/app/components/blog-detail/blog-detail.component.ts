@@ -18,8 +18,8 @@ export class BlogDetailComponent implements OnInit {
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
-    this.postService.getPostsJson().subscribe(posts => {
-      this.post = posts.find(p => p.id == id);
+    this.postService.getPostById(id!).subscribe(post => {
+      this.post = post;
     });
   }
 }
