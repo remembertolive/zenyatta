@@ -1,0 +1,27 @@
+
+    [
+        {
+            "id": 1,
+            "title": "Welcome to My Blog",
+            "date": "2024-01-15",
+            "author": "Jason Doe",
+            "summary": "An introduction to my personal blog where I share my thoughts on technology, coding, and life.",
+            "content": "This is the first post on my blog! I'm excited to share my journey in the world of technology and programming with you all. Stay tuned for more updates and insights."
+        },
+        {
+            "id": 2,
+            "title": "Understanding Angular Directives",
+            "date": "2024-02-10",
+            "author": "Jason Doe",
+            "summary": "A deep dive into Angular directives and how they can enhance your web applications.",
+            "content": "Angular directives are a powerful feature that allows developers to extend HTML with new attributes and elements. In this post, we'll explore the different types of directives, including structural and attribute directives, and see how they can be used to create dynamic and responsive web applications."
+        },
+        {
+            "id": 3,
+            "title": "Top 10 VS Code Extensions for Web Developers",
+            "date": "2024-03-05",
+            "author": "Jason Doe",
+            "summary": "A curated list of the best Visual Studio Code extensions that every web developer should consider using.",
+            "content": "Visual Studio Code is a popular code editor among web developers due to its versatility and extensive extension marketplace. In this post, I'll share my top 10 favorite VS Code extensions that can boost your productivity and improve your coding experience."
+        }
+    ]

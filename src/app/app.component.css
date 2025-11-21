@@ -1,0 +1,5 @@
+.router-container {
+    background: linear-gradient(25deg, #ff0000 0%, #0400ff 100%);
+    min-height: 100vh;
+    padding: 1rem;
+}

@@ -1,0 +1,42 @@
+
+/* Modern Dropdown Menu Styles */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-toggle {
+	background: #0077ff;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.dropdown-toggle:hover {
+	background: #0056b3;
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	border-radius: 8px;
+	min-width: 160px;
+	z-index: 10;
+	padding: 0.5rem 0;
+	margin-top: 0.5rem;
+}
+.dropdown-menu a {
+	display: block;
+	padding: 0.75rem 1rem;
+	color: #222;
+	text-decoration: none;
+	transition: background 0.2s, color 0.2s;
+}
+.dropdown-menu a:hover {
+	background: #0077ff;
+	color: #fff;
+}

@@ -1,0 +1,11 @@
+<div class="blog-list">
+    <div *ngFor="let post of blogPosts" class="blog-card">
+        <h2 class="blog-card-title">{{ post.title }}</h2>
+        <h4 class="blog-card-date">{{ post.date | date:'longDate' }}</h4>
+        <p class="blog-content">{{ post.summary }}</p>
+        <a routerLink="/blog/{{ post.id }}" class="blog-card-read-more">Read More</a>
+        <!-- <h2 class="blog-card-title">First Blog Post</h2>
+        <p class="blog-content">This is a summary of my first blog post. Stay tuned for more content!</p>
+        <a routerLink="/blog/first-post" class="blog-card-read-more">Read More</a> -->
+    </div>
+</div>
